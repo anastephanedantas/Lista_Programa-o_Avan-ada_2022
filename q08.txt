@@ -1,0 +1,3 @@
+O código 1 apresenta os valores contidos no vetor (4, 9 e 13), declarados no laço a partir de um ponteiro. 
+O código 2 imprime na tela o valor em hexadecimal do endereço de memória em que estão armazenados aqueles elementos.
+

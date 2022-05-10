@@ -1,0 +1,1 @@
+A ideia é análoga ao uso de ponteiros para outros tipos de variáveis, ou seja, basicamente teremos um ponteiro que referencia uma função (com qualquer tipo de retorno) e não uma variável. Se temos uma função que retorna um inteiro, isso deve ser mencionado na declaração do ponteiro dentro do “main”.

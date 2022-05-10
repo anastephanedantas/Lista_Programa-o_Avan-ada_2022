@@ -1,0 +1,3 @@
+As duas primeiras afirmações são verdadeiras, pois:
+p = ++mat; --- o incremento deve ser colocado a frente da variável.
+x = (*mat)++; --- mat não é um ponteiro, então não deve ser referenciado como tal. 

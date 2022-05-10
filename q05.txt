@@ -1,0 +1,3 @@
+O ponteiro f aponta para o vetor criado. Dessa forma, o laço de repetição é 
+utilizado a fim de realizar a quantidade de iterações no valor, a fim de percorrer todo o vetor[5], que tem tamanho 5. Se f aponta para vetor, 
+então %x é utilizado para mostrar o endereço de memória em hexadecimal.

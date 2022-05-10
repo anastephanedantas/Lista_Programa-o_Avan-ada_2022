@@ -1,0 +1,4 @@
+p == &i; - retorna 1, pois p recebe o endereço de i.
+*p - *q; - retorna a subtração entre 5-3= 2.
+**&p; - ponteiro que aponta para outro ponteiro.
+3 - *p/(*q) + 7; faz 3 - (5/3) + 7.

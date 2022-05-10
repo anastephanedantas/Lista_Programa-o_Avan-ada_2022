@@ -1,0 +1,7 @@
+p = i: Verdadeiro. 
+p = &*&i – Falso.
+i = (*&)j – Falso.
+i = *&j – Falso.
+i = *&*&j – Falso.
+q = *p – Verdadeiro.
+i = (*p)++ + *q;  Verdadeiro.

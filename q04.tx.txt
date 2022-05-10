@@ -1,0 +1,25 @@
+A) P1 aponta para a o inteiro “valor”, armazena seu endereço de memória, e logo em seguida o código armazena no ponteiro o valor 20. Na tela, o que será impresso é este valor.
+
+B) Da mesma forma como ocorre na letra A, a variável P2 recebe o endereço de “temp”. Logo após, é designado para este endereço o valor 29.0, e como “temp” está armazenado em p2, o valor que se vê na tela é o último valor que foi dado ao ponteiro p2.
+
+C) P3 recebe o endereço do conteúdo que está armazenado na posição 0 do vetor “nome” . Logo em seguida a variável “aux” do tipo “char” recebe este endereço armazenado no ponteiro, e com o uso da função “printf” exibe na tela a variável do tipo char que está armazenada na posição zero do vetor “nome” (letra p).
+
+D) De forma semelhante, dessa vez p3 recebe o endereço do conteúdo armazenado na posição 4 do vetor (letra t). Em seguida, a função “printf” imprime na tela a letra “t”.
+
+E) Nesse caso, p3 recebe o array “nome”, e na tela é mostrado para o usuário novamente a letra “p”, posição 0 do array.
+
+F) Aqui, o ponteiro caminha entre o os bits do array “char”. P3 + 4 significa dizer que o ponteiro irá receber o conteúdo do quarto bit do array “nome”, que nesse caso é a letra “t”. 
+
+G) P3 sofre um decremento, ou seja, da direita para a esquerda o ponteiro caminhou até a posição 2^5 = 32, ao sofrer um decremente, temos o valor 31.
+
+H) P4 recebe o valor do vetor na posição 0, em seguida armazena na variável “idade”. Em seguida, mostra na tela o conteúdo da variável.
+
+I) P5 agora recebe a posição anterior de p4 (0) mais 1. Nesse caso, será mostrado na tela o valor 27, posição 1 do vetor.
+
+J) P4 agora recebe a posição de p5 + 1 (1 + 1 = 2), ou seja, será apresentado na tela o valor contido na posição 2 do vetor (45).
+
+K) P4, que parou na posição 2, agora vai decair 2 posições. 2 – 2 = 0, nesse caso será apresentado o conteúdo do vetor[0] = 31.
+
+L) P5 recebe e armazena na memória o valor do vetor[2] e decremente 1 unidade. Ou seja, 2 (endereço onde está o vetor) – 1 = 1, assim será apresentado o valor 45.
+
+M) P5 sofre um incremento, como anteriormente ele parou na posição 1, ele avança uma posição a frente, 1 + 1 = 2. Assim é apresentado o valor 27.
