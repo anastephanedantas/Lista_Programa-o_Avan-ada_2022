@@ -14,9 +14,9 @@ return sum;
 int main(int argc, char** argv)
 {
 	int *xA, *xB, nA, aux, nB, i;
-	printf("Digite o n�mero de elementos do vetor A: ");
+	printf("Digite o número de elementos do vetor A: ");
 	scanf("%d", &nA);
-	printf("Digite o n�mero de elementos do vetor B: ");
+	printf("Digite o número de elementos do vetor B: ");
 	scanf("%d", &nB);
 	
 
@@ -41,7 +41,7 @@ int main(int argc, char** argv)
 	
 }else
 	{
-		printf("Vetores nao sao de mesma ordem");
+		printf("Vetores não são de mesma ordem");
 }
 
 	return 0;
